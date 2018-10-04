@@ -1,6 +1,6 @@
 {
   "name": "number_suffix_helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper that will allow you to get the day ending for a given day number.",
   "main": "index.js",
   "keywords": [
