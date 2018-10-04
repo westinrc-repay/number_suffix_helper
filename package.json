@@ -12,6 +12,16 @@
     "rd",
     "th"
   ],
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  },
   "author": "Westin Christensen <westinrchristensen@gmail.com>",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
