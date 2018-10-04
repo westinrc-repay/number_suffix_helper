@@ -1,18 +1,16 @@
-exports.getDayEndingFromNumber = function (date) {
-  switch (date) {
+exports.getDayEndingFromNumber = function (date, defaultValue) {
+    defaultValue = (defaultValue === undefined) ? '' : defaultValue
+    switch (date) {
       case 1:
       case 21:
       case 31:
           return 'st'
-          break
       case 2:
       case 22:
           return 'nd'
-          break
       case 3:
       case 23:
           return 'rd'
-          break
       case 4:
       case 5:
       case 6:
@@ -38,8 +36,7 @@ exports.getDayEndingFromNumber = function (date) {
       case 29:
       case 30:
           return 'th'
-          break
       default:
-          return 'Dhalton is the worst'
+          return defaultValue
   }
 }
